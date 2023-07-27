@@ -4,7 +4,7 @@ import axios from 'axios';
 import D3Visualization from '../Components/D3Visualization';
 import SliderComponent from '../Components/SliderComponent';
 import { backend_url } from './BackendURL';
-import { useToast } from '@chakra-ui/react';
+import { useToast, Box } from '@chakra-ui/react';
 
 
 const Slider = () => {
@@ -14,10 +14,9 @@ const Slider = () => {
 
 
   useEffect(() => {
-    // Fetch data from MongoDB through API (replace 'YOUR_API_URL' with the actual API endpoint)
+    // Fetch data from MongoDB through API
     axios.get(`${backend_url}/slider/`, { headers: { token: localStorage.getItem('token') } })
       .then((response) => {
-        console.log(response.data)
         if (response.data.status == "NO") {
           toast({
             title: `${response.data.msg}`,
@@ -28,7 +27,7 @@ const Slider = () => {
             navigate('/login');
           }, 1000);
         } else {
-          setData(response.data);
+          setData(response.data.data);
         }
       })
       .catch((error) => {
@@ -43,11 +42,11 @@ const Slider = () => {
   };
 
   return (
-    <div>
+    <Box display='flex' justifyContent='center' alignItems='center' flexFlow='column'>
       <h1>Slider Visualization App</h1>
       <SliderComponent onChange={handleSliderChange} />
       <D3Visualization data={data} />
-    </div>
+    </Box>
   );
 }
 

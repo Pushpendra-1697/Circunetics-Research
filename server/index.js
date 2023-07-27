@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3000; //defined port 8080 (default 3000) exclud
 
 //Different Routers for different frontend pages in UI;
 const { userRouter } = require("./Routes/users.route");
+const { sliderRouter } = require("./Routes/slider.route");
+const { validate } = require("./Middleware/validate.middleware"); // custom middleware
 
 //Inbuilt middlewares;
 app.use(express.text());
@@ -22,6 +24,8 @@ app.get("/", async (req, res) => {
 
 //Fixed starting end points for making nested dynamic route;
 app.use('/users', userRouter);
+app.use(validate);
+app.use('/slider', sliderRouter);
 
 
 //server code for start or live my server at defined port;

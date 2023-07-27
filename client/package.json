@@ -29,12 +29,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "jest": {
-      "transform": {
-        "^.+\\.jsx?$": "babel-jest"
-      }
-    }
+    ]
   },
   "browserslist": {
     "production": [

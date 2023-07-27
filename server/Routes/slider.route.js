@@ -2,14 +2,15 @@ const { Router } = require('express');
 const sliderRouter = Router();
 
 
-sliderRouter.get('/', (req, res) => {
+sliderRouter.get('/', async (req, res) => {
+    let data = [];
     try {
-        res.status(200).send({ msg: "I am Slider Route" });
+        res.status(200).send({ status: "YES", data });
     }
     catch (err) {
         res.status(404).send({ msg: "Login failed" });
     }
 });
 
-module.exports = {sliderRouter};
+module.exports = { sliderRouter };
 

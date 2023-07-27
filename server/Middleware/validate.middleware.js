@@ -4,8 +4,8 @@ const validate = (req, res, next) => {
     if (token) {
         next();
     } else {
-        res.send({ "status": "NO", "msg": "Unauthorized Please Login First" });
+        res.send({ status: "NO", msg: "Unauthorized Please Login First" });
     }
-}
+};
 
 module.exports = { validate };

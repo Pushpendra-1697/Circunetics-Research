@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Home';
 import Signup from './Signup';
 import Login from './Login';
-import Slider from '../Components/Slider';
+import Slider from './Slider';
 
 
 const AllRoutes = () => {

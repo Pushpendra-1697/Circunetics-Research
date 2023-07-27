@@ -67,7 +67,7 @@ const Login = () => {
             status: "success",
             isClosable: true,
           });
-          navigate('/');
+          navigate('/slider');
         }
       };
 

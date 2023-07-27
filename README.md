@@ -67,4 +67,4 @@ Clone the Repository from Github. Then do the following steps:
 ## B) For Mobile/Tablet Screen :
 ![Screenshot (338)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/0cfb7a27-60fb-4e7b-acc3-3cfaeb588d01)
 ![Screenshot (339)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/5c81c2eb-857c-4a87-b8b1-4aa20de88026)
-
+![Screenshot (340)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/3dd31238-93d1-4516-9840-b507c145c61c)

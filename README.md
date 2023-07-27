@@ -58,7 +58,13 @@ Clone the Repository from Github. Then do the following steps:
 ## Some Project Screenshots :
 
 ## A) For Computer Screen:
+![Screenshot (332)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/ef53d54c-cb3c-48bb-8ac8-5099cdcc7f64)
+![Screenshot (333)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/6d38dfd5-0c60-4ff6-b2f2-9f0fc7ac8cc5)
+![Screenshot (334)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/efbb061a-3030-45fb-905c-a30bb206d666)
+![Screenshot (336)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/af4ddf4b-68e1-40d3-9542-dcbad4da560d)
+![Screenshot (337)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/b1dea55a-e0a0-4069-a791-f4d540d4eaa2)
 
 ## B) For Mobile/Tablet Screen :
-
+![Screenshot (338)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/0cfb7a27-60fb-4e7b-acc3-3cfaeb588d01)
+![Screenshot (339)](https://github.com/Pushpendra-1697/Circunetics-Research/assets/104748364/5c81c2eb-857c-4a87-b8b1-4aa20de88026)
 

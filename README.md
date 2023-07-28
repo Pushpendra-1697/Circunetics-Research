@@ -3,11 +3,28 @@
 The Real-Time D3.js Visualization with User Authentication project aims to combine the power of the MERN stack with D3.js, enabling users to interact with visualizations in real-time while maintaining the security and privacy of their data through user authentication.
 
 ## Frontend Verecel Deployed Link :
-https://circuneties.vercel.app/
+
+##### Steps to deploy REACT app: 
+  - Login your vercel account
+  - then follow some CLI comment on the terminal itself
+       - vercel
+       - then the terminal asks some questions about setup and directory
+       - vercel --prod
+       - It will give me a production link that is deployed link
+
+Deploy link: https://circuneties.vercel.app/
 
 
 ## Backend Render Deployed Link:
-https://circunetics.onrender.com/
+
+##### Steps to deploy SERVER:
+
+ - create a new repo and add backend code
+ - import this repo in the render Dashboard
+ - set the environment variables that you have in .env file
+ - after some time it gives me live link
+
+Deploy link: https://circunetics.onrender.com/
 
 
 ## Tech Stack :

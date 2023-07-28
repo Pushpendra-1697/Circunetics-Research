@@ -27,14 +27,29 @@ Node.js, Express.js, mongodb (NoSQL), mongoose for connect database to server, c
 Clone the Repository from Github. Then do the following steps:
 
 ```bash
+# For Frontend
+
     npm install
 
-# For Frontend
+    npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+    npm i @chakra-ui/icons
+
+    npm install react-icons --save
+
+   npm i axios react-router-dom@6 d3
+
+// To run react-app
     npm run start
     (Or)
     npm start
 
 # For Backend
+    npm init -y
+
+    npm i express mongoose cors bcrypt dotenv jsonwebtoken nodemon
+
+   // To run server
     npm run server
 ```
 
@@ -42,6 +57,8 @@ Clone the Repository from Github. Then do the following steps:
 ### To Run Test Cases use CLI Commend
 
 ```bash
+   npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+
    npm test
 ```
 

@@ -1,0 +1,23 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./client  # Path to your frontend folder
+      dockerfile: Dockerfile       # Name of the frontend Dockerfile
+    ports:
+      - "3000:3000"               # Expose and map the frontend port
+    # Add any environment variables if required
+
+  backend:
+    build:
+      context: ./server   # Path to your backend folder
+      dockerfile: Dockerfile       # Name of the backend Dockerfile
+    ports:
+      - "8080:8080"               # Expose and map the backend port
+
+    # Add any environment variables if required
+    environment:
+      - NODE_mongoURL=mongodb+srv://Pushpendra:Push@cluster0.s3qifk4.mongodb.net/Circunetics?retryWrites=true&w=majority
+      - NODE_PORT = 8080
+      - NODE_secret_key=masai
+      - NODE_Salt_rounds = 5

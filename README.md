@@ -31,7 +31,7 @@ Deploy link: https://circunetics.onrender.com/
 
 ### A) Frontend :
 
-React (JSX Syntax), Chakra-ui Library for Styling & Modal, axios for handling asynchrous request, react-router-dom for routing or Navigate from one page to another, Standard react components, React-hooks, chakra-icons, react-icons, d3-visualization, token-based-authentication, bar-chart, jest-dom & jest-tests.
+React (JSX Syntax), Chakra-ui Library for Styling & Modal, axios for handling asynchrous request, react-router-dom for routing or Navigate from one page to another, Standard react components, React-hooks, chakra-icons, react-icons, d3-visualization, token-based-authentication, docker, docker-images, docker-containers, bar-chart, jest-dom & jest-tests.
 
 ### B) Backend :
 

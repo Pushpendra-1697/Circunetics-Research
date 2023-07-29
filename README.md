@@ -68,6 +68,10 @@ Clone the Repository from Github. Then do the following steps:
 
    // To run server
     npm run server
+
+# For Docker
+   docker run --rm --name ecommerce-container -e CHOKIDAR_USEPOLLING=true -d -
+p 3000:3000 -v $(pwd):/app ecommerce-image    
 ```
 
 ## For Unit Testing of comoponent used JEST Library

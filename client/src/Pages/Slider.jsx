@@ -25,7 +25,7 @@ const Slider = () => {
           });
           setTimeout(() => {
             navigate('/login');
-          }, 1000);
+          }, 500);
         } else {
           setData(response.data.data);
         }
